@@ -1,0 +1,9 @@
+# Ignora la carpeta de configuracion de Visual Studio
+/.vs/
+
+# Ignora las carpetas de binarios de compilación
+/bin/
+/obj/
+
+# Ignora los archivos de configuración de usuario
+*.user
