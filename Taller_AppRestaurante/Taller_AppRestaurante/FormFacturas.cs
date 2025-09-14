@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Taller_AppRestaurante
 {
-    public partial class Form1 : Form
+    public partial class FormFacturas : Form
     {
-        public Form1()
+        public FormFacturas()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
 
         }
