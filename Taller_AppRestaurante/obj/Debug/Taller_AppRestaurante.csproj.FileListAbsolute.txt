@@ -14,3 +14,16 @@ C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Tall
 C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormClientes.resources
 C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormFacturas.resources
 C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormPedidos.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.exe.config
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.Form1.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormClientes.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormFacturas.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormNuevaReserva.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormPedidos.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormRecepcionista.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.Properties.Resources.resources
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.GenerateResource.cache
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.exe
+C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.pdb
