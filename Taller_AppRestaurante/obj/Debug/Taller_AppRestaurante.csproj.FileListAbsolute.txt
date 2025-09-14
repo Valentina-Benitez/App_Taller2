@@ -1,0 +1,16 @@
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.exe.config
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.exe
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.pdb
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.AssemblyReference.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.Form1.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormNuevaReserva.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormRecepcionista.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.Properties.Resources.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.GenerateResource.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.exe
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.pdb
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.exe.config
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormClientes.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormFacturas.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\App_Taller2\Taller_AppRestaurante\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.FormPedidos.resources
