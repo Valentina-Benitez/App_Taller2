@@ -33,32 +33,26 @@
             this.ltitulo = new System.Windows.Forms.Label();
             this.lEmpleados = new System.Windows.Forms.Label();
             this.pictureBox1_Usuario = new System.Windows.Forms.PictureBox();
-            this.pictureBox2_Empleados = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lProductos = new System.Windows.Forms.Label();
             this.lVentas = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.bEmpleados = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Usuario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_Empleados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightBlue;
+            this.panel1.Controls.Add(this.bEmpleados);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.lVentas);
             this.panel1.Controls.Add(this.lProductos);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox2_Empleados);
             this.panel1.Controls.Add(this.pictureBox1_Usuario);
             this.panel1.Controls.Add(this.lEmpleados);
             this.panel1.Controls.Add(this.ltitulo);
@@ -87,6 +81,7 @@
             this.lEmpleados.Size = new System.Drawing.Size(73, 15);
             this.lEmpleados.TabIndex = 1;
             this.lEmpleados.Text = "Empleados";
+            this.lEmpleados.Click += new System.EventHandler(this.lEmpleados_Click);
             // 
             // pictureBox1_Usuario
             // 
@@ -97,16 +92,6 @@
             this.pictureBox1_Usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1_Usuario.TabIndex = 2;
             this.pictureBox1_Usuario.TabStop = false;
-            // 
-            // pictureBox2_Empleados
-            // 
-            this.pictureBox2_Empleados.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2_Empleados.Image")));
-            this.pictureBox2_Empleados.Location = new System.Drawing.Point(220, 22);
-            this.pictureBox2_Empleados.Name = "pictureBox2_Empleados";
-            this.pictureBox2_Empleados.Size = new System.Drawing.Size(28, 35);
-            this.pictureBox2_Empleados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2_Empleados.TabIndex = 1;
-            this.pictureBox2_Empleados.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -148,68 +133,41 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // panelContenedor
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(61, 147);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(240, 180);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.panelContenedor.Location = new System.Drawing.Point(1, 63);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(810, 391);
+            this.panelContenedor.TabIndex = 1;
             // 
-            // pictureBox4
+            // bEmpleados
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(485, 147);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(243, 180);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(98, 346);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Ventas de la Semana";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(554, 346);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Ventas del Año";
+            this.bEmpleados.BackColor = System.Drawing.Color.LightBlue;
+            this.bEmpleados.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bEmpleados.BackgroundImage")));
+            this.bEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bEmpleados.Location = new System.Drawing.Point(219, 25);
+            this.bEmpleados.Name = "bEmpleados";
+            this.bEmpleados.Size = new System.Drawing.Size(29, 35);
+            this.bEmpleados.TabIndex = 7;
+            this.bEmpleados.UseVisualStyleBackColor = false;
+            this.bEmpleados.Click += new System.EventHandler(this.bEmpleados_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 457);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Usuario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_Empleados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -218,15 +176,12 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lEmpleados;
         private System.Windows.Forms.Label ltitulo;
-        private System.Windows.Forms.PictureBox pictureBox2_Empleados;
         private System.Windows.Forms.PictureBox pictureBox1_Usuario;
         private System.Windows.Forms.Label lVentas;
         private System.Windows.Forms.Label lProductos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panelContenedor;
+        private System.Windows.Forms.Button bEmpleados;
     }
 }
