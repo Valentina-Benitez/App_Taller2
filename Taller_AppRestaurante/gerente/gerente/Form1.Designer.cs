@@ -29,112 +29,111 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lNombre = new System.Windows.Forms.Label();
-            this.lContraseña = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.bIniciar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.label1_Nombre = new System.Windows.Forms.Label();
+            this.label2_Contraseña = new System.Windows.Forms.Label();
+            this.textBox3_nombre = new System.Windows.Forms.TextBox();
+            this.textBox4_contraseña = new System.Windows.Forms.TextBox();
+            this.button1_iniciar = new System.Windows.Forms.Button();
+            this.pictureBox1_LogoRestaurante = new System.Windows.Forms.PictureBox();
+            this.pictureBox2_ojoAbierto = new System.Windows.Forms.PictureBox();
+            this.pictureBox3_ojoCerrado = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_LogoRestaurante)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_ojoAbierto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_ojoCerrado)).BeginInit();
             this.SuspendLayout();
             // 
-            // lNombre
+            // label1_Nombre
             // 
-            this.lNombre.AutoSize = true;
-            this.lNombre.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNombre.Location = new System.Drawing.Point(21, 213);
-            this.lNombre.Name = "lNombre";
-            this.lNombre.Size = new System.Drawing.Size(54, 15);
-            this.lNombre.TabIndex = 0;
-            this.lNombre.Text = "Nombre";
+            this.label1_Nombre.AutoSize = true;
+            this.label1_Nombre.Location = new System.Drawing.Point(26, 158);
+            this.label1_Nombre.Name = "label1_Nombre";
+            this.label1_Nombre.Size = new System.Drawing.Size(44, 13);
+            this.label1_Nombre.TabIndex = 0;
+            this.label1_Nombre.Text = "Nombre";
             // 
-            // lContraseña
+            // label2_Contraseña
             // 
-            this.lContraseña.AutoSize = true;
-            this.lContraseña.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lContraseña.Location = new System.Drawing.Point(21, 280);
-            this.lContraseña.Name = "lContraseña";
-            this.lContraseña.Size = new System.Drawing.Size(76, 15);
-            this.lContraseña.TabIndex = 1;
-            this.lContraseña.Text = "Contraseña";
+            this.label2_Contraseña.AutoSize = true;
+            this.label2_Contraseña.Location = new System.Drawing.Point(26, 220);
+            this.label2_Contraseña.Name = "label2_Contraseña";
+            this.label2_Contraseña.Size = new System.Drawing.Size(61, 13);
+            this.label2_Contraseña.TabIndex = 1;
+            this.label2_Contraseña.Text = "Contraseña";
             // 
-            // textBox1
+            // textBox3_nombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(121, 213);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(189, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox3_nombre.Location = new System.Drawing.Point(108, 155);
+            this.textBox3_nombre.Name = "textBox3_nombre";
+            this.textBox3_nombre.Size = new System.Drawing.Size(156, 20);
+            this.textBox3_nombre.TabIndex = 2;
             // 
-            // textBox2
+            // textBox4_contraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(121, 275);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(189, 20);
-            this.textBox2.TabIndex = 3;
+            this.textBox4_contraseña.Location = new System.Drawing.Point(108, 220);
+            this.textBox4_contraseña.Name = "textBox4_contraseña";
+            this.textBox4_contraseña.PasswordChar = '*';
+            this.textBox4_contraseña.Size = new System.Drawing.Size(156, 20);
+            this.textBox4_contraseña.TabIndex = 3;
+            this.textBox4_contraseña.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // pictureBox1
+            // button1_iniciar
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(110, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 87);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.button1_iniciar.Location = new System.Drawing.Point(108, 291);
+            this.button1_iniciar.Name = "button1_iniciar";
+            this.button1_iniciar.Size = new System.Drawing.Size(75, 23);
+            this.button1_iniciar.TabIndex = 4;
+            this.button1_iniciar.Text = "Iniciar";
+            this.button1_iniciar.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // pictureBox1_LogoRestaurante
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(316, 266);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox1_LogoRestaurante.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1_LogoRestaurante.Image")));
+            this.pictureBox1_LogoRestaurante.Location = new System.Drawing.Point(98, 12);
+            this.pictureBox1_LogoRestaurante.Name = "pictureBox1_LogoRestaurante";
+            this.pictureBox1_LogoRestaurante.Size = new System.Drawing.Size(100, 77);
+            this.pictureBox1_LogoRestaurante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1_LogoRestaurante.TabIndex = 5;
+            this.pictureBox1_LogoRestaurante.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBox2_ojoAbierto
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(316, 301);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(28, 27);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox2_ojoAbierto.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2_ojoAbierto.Image")));
+            this.pictureBox2_ojoAbierto.Location = new System.Drawing.Point(273, 208);
+            this.pictureBox2_ojoAbierto.Name = "pictureBox2_ojoAbierto";
+            this.pictureBox2_ojoAbierto.Size = new System.Drawing.Size(30, 32);
+            this.pictureBox2_ojoAbierto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2_ojoAbierto.TabIndex = 6;
+            this.pictureBox2_ojoAbierto.TabStop = false;
+            this.pictureBox2_ojoAbierto.Click += new System.EventHandler(this.pictureBox2_ojoAbierto_Click);
             // 
-            // bIniciar
+            // pictureBox3_ojoCerrado
             // 
-            this.bIniciar.Location = new System.Drawing.Point(121, 357);
-            this.bIniciar.Name = "bIniciar";
-            this.bIniciar.Size = new System.Drawing.Size(84, 35);
-            this.bIniciar.TabIndex = 7;
-            this.bIniciar.Text = "Iniciar";
-            this.bIniciar.UseVisualStyleBackColor = true;
+            this.pictureBox3_ojoCerrado.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3_ojoCerrado.Image")));
+            this.pictureBox3_ojoCerrado.Location = new System.Drawing.Point(273, 246);
+            this.pictureBox3_ojoCerrado.Name = "pictureBox3_ojoCerrado";
+            this.pictureBox3_ojoCerrado.Size = new System.Drawing.Size(30, 28);
+            this.pictureBox3_ojoCerrado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3_ojoCerrado.TabIndex = 7;
+            this.pictureBox3_ojoCerrado.TabStop = false;
+            this.pictureBox3_ojoCerrado.Click += new System.EventHandler(this.pictureBox3_ojoCerrado_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(344, 443);
-            this.Controls.Add(this.bIniciar);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lContraseña);
-            this.Controls.Add(this.lNombre);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(315, 354);
+            this.Controls.Add(this.pictureBox3_ojoCerrado);
+            this.Controls.Add(this.pictureBox2_ojoAbierto);
+            this.Controls.Add(this.pictureBox1_LogoRestaurante);
+            this.Controls.Add(this.button1_iniciar);
+            this.Controls.Add(this.textBox4_contraseña);
+            this.Controls.Add(this.textBox3_nombre);
+            this.Controls.Add(this.label2_Contraseña);
+            this.Controls.Add(this.label1_Nombre);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_LogoRestaurante)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_ojoAbierto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_ojoCerrado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,10 +145,18 @@
         private System.Windows.Forms.Label lContraseña;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox LogoDelRestaurante;
+        private System.Windows.Forms.PictureBox ojoAbierto;
+        private System.Windows.Forms.PictureBox ojoCerrado;
         private System.Windows.Forms.Button bIniciar;
+        private System.Windows.Forms.Label label1_Nombre;
+        private System.Windows.Forms.Label label2_Contraseña;
+        private System.Windows.Forms.TextBox textBox3_nombre;
+        private System.Windows.Forms.TextBox textBox4_contraseña;
+        private System.Windows.Forms.Button button1_iniciar;
+        private System.Windows.Forms.PictureBox pictureBox1_LogoRestaurante;
+        private System.Windows.Forms.PictureBox pictureBox2_ojoAbierto;
+        private System.Windows.Forms.PictureBox pictureBox3_ojoCerrado;
     }
 }
 

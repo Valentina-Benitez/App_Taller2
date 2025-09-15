@@ -21,5 +21,34 @@ namespace gerente
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_ojoAbierto_Click(object sender, EventArgs e)
+        {
+            textBox4_contraseña.PasswordChar = ' ';
+            pictureBox2_ojoAbierto.Visible = true;
+            pictureBox3_ojoCerrado.Visible = false;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_ojoCerrado_Click(object sender, EventArgs e)
+        {
+            textBox4_contraseña.PasswordChar = ' ';
+            pictureBox2_ojoAbierto.Visible = false;
+            pictureBox3_ojoCerrado.Visible = true;
+        }
     }
 }
