@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace gerente
 {
+    import system.data.sqlclient;
     public partial class Form1 : Form
     {
         public Form1()
@@ -30,8 +31,8 @@ namespace gerente
         private void pictureBox2_ojoAbierto_Click(object sender, EventArgs e)
         {
             textBox4_contraseña.PasswordChar = ' ';
-            pictureBox2_ojoAbierto.Visible = true;
-            pictureBox3_ojoCerrado.Visible = false;
+            pictureBox2_ojoAbierto.Visible = false;
+            pictureBox3_ojoCerrado.Visible = true;
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -47,8 +48,13 @@ namespace gerente
         private void pictureBox3_ojoCerrado_Click(object sender, EventArgs e)
         {
             textBox4_contraseña.PasswordChar = ' ';
-            pictureBox2_ojoAbierto.Visible = false;
-            pictureBox3_ojoCerrado.Visible = true;
+            pictureBox2_ojoAbierto.Visible = true;
+            pictureBox3_ojoCerrado.Visible = false;
+        }
+
+        private void button1_iniciar_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
