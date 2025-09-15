@@ -142,6 +142,7 @@
             this.chart1.Size = new System.Drawing.Size(192, 185);
             this.chart1.TabIndex = 3;
             this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
             // chart2
             // 
