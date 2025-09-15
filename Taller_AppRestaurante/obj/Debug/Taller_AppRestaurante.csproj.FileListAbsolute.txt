@@ -27,3 +27,6 @@ C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppR
 C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.csproj.CoreCompileInputs.cache
 C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.exe
 C:\Users\HP\Source\Repos\App_Taller2\Taller_AppRestaurante\obj\Debug\Taller_AppRestaurante.pdb
+C:\Users\HP\source\repos\App_Taller2\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.exe.config
+C:\Users\HP\source\repos\App_Taller2\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.exe
+C:\Users\HP\source\repos\App_Taller2\Taller_AppRestaurante\bin\Debug\Taller_AppRestaurante.pdb
