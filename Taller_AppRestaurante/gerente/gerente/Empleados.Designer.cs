@@ -53,14 +53,27 @@
             this.bAgregar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Nacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Domicilio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Rol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contraseña = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Edicion = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lNombre
             // 
             this.lNombre.AutoSize = true;
-            this.lNombre.Location = new System.Drawing.Point(44, 89);
+            this.lNombre.Location = new System.Drawing.Point(31, 41);
             this.lNombre.Name = "lNombre";
             this.lNombre.Size = new System.Drawing.Size(44, 13);
             this.lNombre.TabIndex = 0;
@@ -69,6 +82,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.bAgregar);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.comboBox1);
@@ -90,17 +105,17 @@
             this.panel1.Controls.Add(this.lDni);
             this.panel1.Controls.Add(this.lApellido);
             this.panel1.Controls.Add(this.lNombre);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(339, 450);
+            this.panel1.Size = new System.Drawing.Size(767, 244);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lApellido
             // 
             this.lApellido.AutoSize = true;
-            this.lApellido.Location = new System.Drawing.Point(44, 123);
+            this.lApellido.Location = new System.Drawing.Point(31, 75);
             this.lApellido.Name = "lApellido";
             this.lApellido.Size = new System.Drawing.Size(44, 13);
             this.lApellido.TabIndex = 1;
@@ -109,7 +124,7 @@
             // lDni
             // 
             this.lDni.AutoSize = true;
-            this.lDni.Location = new System.Drawing.Point(44, 153);
+            this.lDni.Location = new System.Drawing.Point(31, 105);
             this.lDni.Name = "lDni";
             this.lDni.Size = new System.Drawing.Size(26, 13);
             this.lDni.TabIndex = 2;
@@ -118,7 +133,7 @@
             // lFechaNacimiento
             // 
             this.lFechaNacimiento.AutoSize = true;
-            this.lFechaNacimiento.Location = new System.Drawing.Point(44, 180);
+            this.lFechaNacimiento.Location = new System.Drawing.Point(31, 132);
             this.lFechaNacimiento.Name = "lFechaNacimiento";
             this.lFechaNacimiento.Size = new System.Drawing.Size(108, 13);
             this.lFechaNacimiento.TabIndex = 3;
@@ -127,7 +142,7 @@
             // lDomicilio
             // 
             this.lDomicilio.AutoSize = true;
-            this.lDomicilio.Location = new System.Drawing.Point(44, 209);
+            this.lDomicilio.Location = new System.Drawing.Point(31, 161);
             this.lDomicilio.Name = "lDomicilio";
             this.lDomicilio.Size = new System.Drawing.Size(49, 13);
             this.lDomicilio.TabIndex = 4;
@@ -136,7 +151,7 @@
             // lTelefono
             // 
             this.lTelefono.AutoSize = true;
-            this.lTelefono.Location = new System.Drawing.Point(44, 241);
+            this.lTelefono.Location = new System.Drawing.Point(336, 36);
             this.lTelefono.Name = "lTelefono";
             this.lTelefono.Size = new System.Drawing.Size(49, 13);
             this.lTelefono.TabIndex = 5;
@@ -145,7 +160,7 @@
             // lGmail
             // 
             this.lGmail.AutoSize = true;
-            this.lGmail.Location = new System.Drawing.Point(44, 272);
+            this.lGmail.Location = new System.Drawing.Point(336, 67);
             this.lGmail.Name = "lGmail";
             this.lGmail.Size = new System.Drawing.Size(33, 13);
             this.lGmail.TabIndex = 6;
@@ -154,7 +169,7 @@
             // lTipoUsuario
             // 
             this.lTipoUsuario.AutoSize = true;
-            this.lTipoUsuario.Location = new System.Drawing.Point(44, 300);
+            this.lTipoUsuario.Location = new System.Drawing.Point(336, 95);
             this.lTipoUsuario.Name = "lTipoUsuario";
             this.lTipoUsuario.Size = new System.Drawing.Size(82, 13);
             this.lTipoUsuario.TabIndex = 7;
@@ -163,7 +178,7 @@
             // lContraseña
             // 
             this.lContraseña.AutoSize = true;
-            this.lContraseña.Location = new System.Drawing.Point(44, 331);
+            this.lContraseña.Location = new System.Drawing.Point(336, 126);
             this.lContraseña.Name = "lContraseña";
             this.lContraseña.Size = new System.Drawing.Size(61, 13);
             this.lContraseña.TabIndex = 8;
@@ -172,7 +187,7 @@
             // lRepContraseña
             // 
             this.lRepContraseña.AutoSize = true;
-            this.lRepContraseña.Location = new System.Drawing.Point(44, 366);
+            this.lRepContraseña.Location = new System.Drawing.Point(336, 161);
             this.lRepContraseña.Name = "lRepContraseña";
             this.lRepContraseña.Size = new System.Drawing.Size(98, 13);
             this.lRepContraseña.TabIndex = 9;
@@ -180,56 +195,56 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 82);
+            this.textBox1.Location = new System.Drawing.Point(141, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 20);
             this.textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(154, 116);
+            this.textBox2.Location = new System.Drawing.Point(141, 68);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(152, 20);
             this.textBox2.TabIndex = 11;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(154, 146);
+            this.textBox3.Location = new System.Drawing.Point(141, 98);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(151, 20);
             this.textBox3.TabIndex = 12;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(154, 206);
+            this.textBox4.Location = new System.Drawing.Point(141, 158);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(151, 20);
             this.textBox4.TabIndex = 13;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(154, 238);
+            this.textBox5.Location = new System.Drawing.Point(446, 33);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(151, 20);
             this.textBox5.TabIndex = 14;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(154, 265);
+            this.textBox6.Location = new System.Drawing.Point(446, 60);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(151, 20);
             this.textBox6.TabIndex = 15;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(154, 324);
+            this.textBox7.Location = new System.Drawing.Point(446, 119);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(151, 20);
             this.textBox7.TabIndex = 16;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(154, 366);
+            this.textBox8.Location = new System.Drawing.Point(446, 161);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(151, 20);
             this.textBox8.TabIndex = 17;
@@ -237,14 +252,14 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(154, 297);
+            this.comboBox1.Location = new System.Drawing.Point(446, 92);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 21);
             this.comboBox1.TabIndex = 18;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(154, 174);
+            this.dateTimePicker1.Location = new System.Drawing.Point(141, 126);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(152, 20);
             this.dateTimePicker1.TabIndex = 19;
@@ -253,7 +268,7 @@
             // 
             this.bAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.bAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bAgregar.Location = new System.Drawing.Point(132, 415);
+            this.bAgregar.Location = new System.Drawing.Point(294, 189);
             this.bAgregar.Name = "bAgregar";
             this.bAgregar.Size = new System.Drawing.Size(75, 23);
             this.bAgregar.TabIndex = 20;
@@ -263,7 +278,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(529, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(633, 33);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,28 +289,109 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(534, 123);
+            this.label1.Location = new System.Drawing.Point(638, 177);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "Empleados";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nombre,
+            this.Apellido,
+            this.DNI,
+            this.Fecha_Nacimiento,
+            this.Domicilio,
+            this.Telefono,
+            this.Gmail,
+            this.Rol,
+            this.Contraseña,
+            this.Edicion,
+            this.Eliminar});
+            this.dataGridView1.Location = new System.Drawing.Point(0, 244);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(767, 202);
+            this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Apellido
+            // 
+            this.Apellido.HeaderText = "Apellido";
+            this.Apellido.Name = "Apellido";
+            // 
+            // DNI
+            // 
+            this.DNI.HeaderText = "DNI";
+            this.DNI.Name = "DNI";
+            // 
+            // Fecha_Nacimiento
+            // 
+            this.Fecha_Nacimiento.HeaderText = "Fecha de nacimiento";
+            this.Fecha_Nacimiento.Name = "Fecha_Nacimiento";
+            // 
+            // Domicilio
+            // 
+            this.Domicilio.HeaderText = "Domicilio";
+            this.Domicilio.Name = "Domicilio";
+            // 
+            // Telefono
+            // 
+            this.Telefono.HeaderText = "Telefono";
+            this.Telefono.Name = "Telefono";
+            // 
+            // Gmail
+            // 
+            this.Gmail.HeaderText = "Gmail";
+            this.Gmail.Name = "Gmail";
+            // 
+            // Rol
+            // 
+            this.Rol.HeaderText = "Tipo de Usuario";
+            this.Rol.Name = "Rol";
+            // 
+            // Contraseña
+            // 
+            this.Contraseña.HeaderText = "Contraseña";
+            this.Contraseña.Name = "Contraseña";
+            // 
+            // Edicion
+            // 
+            this.Edicion.HeaderText = "Edicion";
+            this.Edicion.Name = "Edicion";
+            this.Edicion.Text = "Editar";
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Eliminar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Eliminar.Text = "Eliminar";
+            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(767, 447);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Empleados";
             this.Text = "Empleados";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -325,5 +421,17 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Apellido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Nacimiento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Domicilio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gmail;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Rol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Contraseña;
+        private System.Windows.Forms.DataGridViewButtonColumn Edicion;
+        private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
     }
 }
