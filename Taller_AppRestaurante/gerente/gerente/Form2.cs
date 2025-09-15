@@ -44,18 +44,60 @@ namespace gerente
 
         private void bEmpleados_Click(object sender, EventArgs e)
         {
-            
+            // Limpia el panel para asegurarse de que no haya otros formularios abiertos
+            panelContenedor.Controls.Clear();
+
+            // Crea una nueva instancia del formulario que quieres mostrar
+            Empleados formSecundario = new Empleados();
+
+            // Configura el formulario para que se comporte como un control
+            formSecundario.TopLevel = false;
+            formSecundario.FormBorderStyle = FormBorderStyle.None;
+            formSecundario.Dock = DockStyle.Fill; // Esto hará que el formulario se ajuste al tamaño del panel
+
+            // Agrega el formulario al panel
+            panelContenedor.Controls.Add(formSecundario);
+
+            // Muestra el formulario
+            formSecundario.Show();
 
         }
 
         private void bProductos_Click(object sender, EventArgs e)
         {
+            // Limpia el panel para asegurarse de que no haya otros formularios abiertos
+            panelContenedor.Controls.Clear();
+
+            // Crea una nueva instancia del formulario que quieres mostrar
+            Productos formSecundario = new Productos();
+
+            // Configura el formulario para que se comporte como un control
+            formSecundario.TopLevel = false;
+            formSecundario.FormBorderStyle = FormBorderStyle.None;
+            formSecundario.Dock = DockStyle.Fill; // Esto hará que el formulario se ajuste al tamaño del panel
+
+            // Agrega el formulario al panel
+            panelContenedor.Controls.Add(formSecundario);
+
+            // Muestra el formulario
+            formSecundario.Show();
 
         }
 
         private void bVentas_Click(object sender, EventArgs e)
         {
 
+        }
+        
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_2(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
