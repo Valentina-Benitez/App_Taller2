@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|c:\\users\\valen\\onedrive\\documentos\\github\\app_taller2\\taller_apprestaurante\\taller_apprestaurante\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|c:\\users\\valen\\onedrive\\documentos\\github\\app_taller2\\taller_apprestaurante\\taller_apprestaurante\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formfacturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formnuevareserva.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formnuevareserva.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -51,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formnuevareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formnuevareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formfacturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formfacturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\formnuevareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|solutionrelative:taller_apprestaurante\\formnuevareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB2DF8A-863D-478B-9495-ABA8BDE6F343}|Taller_AppRestaurante\\Taller_AppRestaurante.csproj|C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\taller_apprestaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,21 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormNuevaReserva.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "RelativeToolTip": "Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:47:20.732Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -103,8 +78,20 @@
               "RelativeToolTip": "Taller_AppRestaurante\\FormFacturas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T05:34:36.305Z",
-              "IsPinned": true
+              "WhenOpened": "2025-09-14T05:34:36.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\App.config",
+              "RelativeDocumentMoniker": "Taller_AppRestaurante\\App.config",
+              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\App.config",
+              "RelativeToolTip": "Taller_AppRestaurante\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-15T10:59:50.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -120,20 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\App.config",
-              "RelativeDocumentMoniker": "Taller_AppRestaurante\\App.config",
-              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\App.config",
-              "RelativeToolTip": "Taller_AppRestaurante\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-15T10:59:50.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormClientes.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormClientes.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormClientes.cs",
@@ -141,12 +115,11 @@
               "RelativeToolTip": "Taller_AppRestaurante\\FormClientes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T18:10:34.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-14T18:10:34.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormClientes.Designer.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormClientes.Designer.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormClientes.Designer.cs",
@@ -154,24 +127,22 @@
               "RelativeToolTip": "Taller_AppRestaurante\\FormClientes.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANcBAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:25:36.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T14:25:36.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormClientes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormClientes.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormClientes.cs",
               "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormClientes.cs [Dise\u00F1o]",
               "RelativeToolTip": "Taller_AppRestaurante\\FormClientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T05:18:58.638Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-09-14T05:18:58.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "FormRecepcionista.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormRecepcionista.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormRecepcionista.cs",
@@ -182,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "FormPedidos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormPedidos.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormPedidos.cs",
@@ -190,18 +161,6 @@
               "RelativeToolTip": "Taller_AppRestaurante\\FormPedidos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T05:27:40.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormNuevaReserva.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.Designer.cs",
-              "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormNuevaReserva.Designer.cs",
-              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.Designer.cs",
-              "RelativeToolTip": "Taller_AppRestaurante\\FormNuevaReserva.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwLYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:57:12.056Z"
             },
             {
               "$type": "Document",
@@ -217,20 +176,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\Program.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\Program.cs",
               "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\Program.cs",
               "RelativeToolTip": "Taller_AppRestaurante\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T03:57:48.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "FormFacturas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormFacturas.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormFacturas.cs",
@@ -241,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "FormRecepcionista.Designer.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormRecepcionista.Designer.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormRecepcionista.Designer.cs",
@@ -253,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "FormRecepcionista.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormRecepcionista.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormRecepcionista.cs",
@@ -266,17 +225,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "FormNuevaReserva.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "RelativeDocumentMoniker": "Taller_AppRestaurante\\FormNuevaReserva.cs",
-              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\FormNuevaReserva.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Taller_AppRestaurante\\FormNuevaReserva.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T03:42:17.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\Form1.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\Form1.cs",
@@ -288,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documentos\\GitHub\\App_Taller2\\Taller_AppRestaurante\\Taller_AppRestaurante\\Form1.cs",
               "RelativeDocumentMoniker": "Taller_AppRestaurante\\Form1.cs",
