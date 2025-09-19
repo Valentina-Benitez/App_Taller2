@@ -17,7 +17,8 @@ namespace Taller_AppRestaurante
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormRecepcionista());
-            Application.Run(new FormFacturas());
+            //Application.Run(new FormFacturas());
+            Application.Run(new FormClientes());
         }
     }
 }
