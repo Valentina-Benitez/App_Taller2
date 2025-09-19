@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="ConexionBD.cs" />
     <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
@@ -73,6 +74,8 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 16b522adad1c4ca98bbf841a3d125ff71c9d3f8d
     <Compile Include="FormClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +114,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +133,8 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 16b522adad1c4ca98bbf841a3d125ff71c9d3f8d
     <EmbeddedResource Include="FormClientes.resx">
       <DependentUpon>FormClientes.cs</DependentUpon>
     </EmbeddedResource>
