@@ -51,5 +51,15 @@ namespace Taller_AppRestaurante
         {
 
         }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+            // Puedes dejarlo vacío si no necesitas lógica personalizada
+        }
+
+        private void FormRecepcionista_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

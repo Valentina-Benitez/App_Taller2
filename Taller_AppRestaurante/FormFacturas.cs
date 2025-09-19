@@ -21,5 +21,10 @@ namespace Taller_AppRestaurante
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using gerente; // <-- Agrega esta línea
+using RestauranteApp;
 
 namespace Taller_AppRestaurante
 {
@@ -17,7 +19,11 @@ namespace Taller_AppRestaurante
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormRecepcionista());
-            Application.Run(new FormInicioSesion());
+            //Application.Run(new Form1());
+            //Application.Run(new Ventas());
+            //Application.Run(new Form2());
+            //Application.Run(new FormClientes());
+            Application.Run(new Form3());
         }
     }
 }
